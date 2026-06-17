@@ -1,10 +1,12 @@
 
 # 🏥 Hospital Network Design using Cisco Packet Tracer
 
-<img width="524" height="294" alt="image" src="https://github.com/user-attachments/assets/ba4e7ffa-dea0-4df7-8e7e-a1c826a7fea7" />
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue)
 ![Project Type](https://img.shields.io/badge/Project-Hospital%20Network-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
+
+<img width="524" height="294" alt="image" src="https://github.com/user-attachments/assets/ba4e7ffa-dea0-4df7-8e7e-a1c826a7fea7" />
+
 A simulated enterprise-level hospital network built using Cisco Packet Tracer. The project demonstrates the design and implementation of a secure, scalable, and segmented network infrastructure for a modern hospital environment.
 
 ---
