@@ -5,7 +5,7 @@
 ![Project Type](https://img.shields.io/badge/Project-Hospital%20Network-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-<img width="524" height="294" alt="image" src="https://github.com/user-attachments/assets/ba4e7ffa-dea0-4df7-8e7e-a1c826a7fea7" />
+<img width="521" height="287" alt="image" src="https://github.com/user-attachments/assets/2d83d4d3-665a-403d-8c47-da499fadb0a7" />
 
 A simulated enterprise-level hospital network built using Cisco Packet Tracer. The project demonstrates the design and implementation of a secure, scalable, and segmented network infrastructure for a modern hospital environment.
 
@@ -23,9 +23,10 @@ The goal of the project is to apply fundamental computer networking concepts in 
 
 The hospital network consists of the following departments:
 
-* Reception / Administration
+* Reception 
+* Administration
 * Doctors Department
-* Emergency Ward
+* HR Department
 * Intensive Care Unit (ICU)
 * Laboratory
 * Pharmacy
@@ -62,7 +63,7 @@ Each department is logically separated using VLANs to improve performance and se
 * VLANs
 * Routing Protocols (RIP/Static Routing)
 * Access Control Lists (ACLs)
-* Port Security
+
 
 ---
 
@@ -71,13 +72,14 @@ Each department is logically separated using VLANs to improve performance and se
 | VLAN | Department     | Network          |
 | ---- | -------------- | ---------------- |
 | 10   | Administration | 192.168.10.0/24  |
-| 20   | Doctors        | 192.168.20.0/24  |
-| 30   | ICU            | 192.168.30.0/24  |
-| 40   | Laboratory     | 192.168.40.0/24  |
-| 50   | Pharmacy       | 192.168.50.0/24  |
-| 60   | Billing        | 192.168.60.0/24  |
-| 100  | Server Room    | 192.168.100.0/24 |
-| 200  | Guest WiFi     | 192.168.200.0/24 |
+| 20   | HR Department  | 192.168.20.0/24  |
+| 30   | Billing        | 192.168.30.0/24  |
+| 40   | ICU            | 192.168.40.0/24  |
+| 50   | Doctors        | 192.168.50.0/24  |
+| 60   | Pharmacy       | 192.168.60.0/24  |
+| 70   | Laboratory     | 192.168.70.0/24  |
+| 80   | Reception      | 192.168.80.0/24  |
+| 90   | Guest WiFi     | 192.168.90.0/24  |
 
 ---
 
@@ -87,13 +89,6 @@ Each department is logically separated using VLANs to improve performance and se
 Hospital-Network-Project/
 │
 ├── Hospital_Network.pkt
-├── Network_Diagram.png
-├── Screenshots/
-│   ├── Topology.png
-│   ├── VLAN_Config.png
-│   ├── DHCP_Config.png
-│   └── Connectivity_Test.png
-├── Report.pdf
 └── README.md
 ```
 
@@ -121,7 +116,6 @@ Hospital-Network-Project/
 * Console password protection
 * Enable secret password
 * Telnet/SSH configuration
-* Port Security using sticky MAC addresses
 * Guest network isolation
 
 ---
@@ -134,19 +128,6 @@ Hospital-Network-Project/
 * Tested routing table entries
 * Verified port security behavior
 * Performed end-to-end ping tests
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-1. Complete Network Topology
-2. VLAN Configuration
-3. DHCP Configuration
-4. Routing Table (`show ip route`)
-5. Successful Ping Tests
-6. Web Server Access
 
 ---
 
@@ -169,4 +150,4 @@ Through this project, I gained practical experience with:
 
 **Sufyan Malik**
 
-Computer Networks Project – Hospital Network Design using Cisco Packet Tracer.
+BS Computer Science 3rd Semester Computer Networks Project – Hospital Network Design using Cisco Packet Tracer.
